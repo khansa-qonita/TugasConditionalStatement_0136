@@ -24,3 +24,11 @@ string cekStatus(float bmi) {
         return "Obesitas";
     }
 }
+
+int main() {
+    float b, t, bmi;
+    cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
+    inputData(b, t);
+    bmi = hitungBMI(b, t);
+    return 0;
+}
